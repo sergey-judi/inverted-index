@@ -23,6 +23,6 @@ public class IndexerProperties {
   private int minimalTokenLength;
 
   @Value("${indexer.ignored-delimiters}")
-  private String[] ignoredDelimiters;
+  private String ignoredDelimiters;
 
 }

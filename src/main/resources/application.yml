@@ -3,5 +3,4 @@ indexer:
   source-directory: "classpath:files"
   stop-words-location: "classpath:stop-words.txt"
   minimal-token-length: 3
-  ignored-delimiters: [" ", ".", ",", '"', "'", "/", "\\", ".", "[", "]", "{", "}", "(", ")", "<", ">",
-                       "*", "+", "-", "=", "~", "!", "?", "^", "#", "@", "%", "&", "$", "|", ";", ":"]
+  ignored-delimiters: " .,\"'/|\\[]{}()<>*+-=~!?^#@%&$;:"
